@@ -16,10 +16,12 @@ import NotFound from './pages/NotFound';
 import Login from './pages/Login';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/layout/ProtectedRoute';
+import ScrollToTop from './components/layout/ScrollToTop';
 
 function App() {
   return (
     <AuthProvider>
+      <ScrollToTop />
       <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">

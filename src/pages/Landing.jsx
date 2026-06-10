@@ -4,10 +4,12 @@ import { motion } from 'framer-motion';
 import { CheckCircle, Zap, Shield, Sparkles, MonitorSmartphone } from 'lucide-react';
 import Button from '../components/common/Button';
 import Card, { CardHeader, CardBody, CardFooter } from '../components/common/Card';
+import SEO from '../components/common/SEO';
 
 const Landing = () => {
   return (
     <div className="flex flex-col w-full">
+      <SEO />
       {/* Hero Section */}
       <section className="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white pt-20 pb-32">
         <div className="absolute inset-0 bg-grid-gray-100/[0.2] bg-[length:16px_16px]" />

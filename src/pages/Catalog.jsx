@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import Button from '../components/common/Button';
 import Card, { CardBody } from '../components/common/Card';
 import Badge from '../components/common/Badge';
+import SEO from '../components/common/SEO';
 
 // Mock data mapping to PRD
 const templates = [
@@ -28,6 +29,10 @@ const Catalog = () => {
 
   return (
     <div className="bg-gray-50 min-h-screen py-12">
+      <SEO 
+        title="Katalog Template | CareerFolio" 
+        description="Jelajahi berbagai pilihan desain portofolio profesional untuk mahasiswa Kesehatan, Teknik, Pertanian, Hukum, dan Bisnis." 
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}
