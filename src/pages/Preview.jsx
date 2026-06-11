@@ -5,15 +5,24 @@ import Button from '../components/common/Button';
 import { templatesData } from '../data/mockData';
 
 import HealthBasic from '../components/templates/kesehatan/HealthBasic';
-import AgroField from '../components/templates/pertanian/AgroField';
+import HealthTwo from '../components/templates/kesehatan/HealthTwo';
+import HealthThree from '../components/templates/kesehatan/HealthThree';
+import AgroOne from '../components/templates/pertanian/AgroOne';
+import AgroTwo from '../components/templates/pertanian/AgroTwo';
+import AgroThree from '../components/templates/pertanian/AgroThree';
 import TechCivil from '../components/templates/teknik/TechCivil';
 import LawPrac from '../components/templates/hukum/LawPrac';
 import BizFin from '../components/templates/ekonomi/BizFin';
 
 const TemplateRenderer = ({ templateId, data }) => {
   switch (templateId) {
-    case 'health-basic': return <HealthBasic data={data} />;
-    case 'agro-field': return <AgroField data={data} />;
+    case 'health-1': return <HealthBasic data={data} />;
+    case 'health-pro': return <HealthTwo data={data} />;
+    case 'health-2': return <HealthTwo data={data} />;
+    case 'health-3': return <HealthThree data={data} />;
+    case 'agro-1': return <AgroOne data={data} />;
+    case 'agro-2': return <AgroTwo data={data} />;
+    case 'agro-3': return <AgroThree data={data} />;
     case 'tech-civil': return <TechCivil data={data} />;
     case 'law-prac': return <LawPrac data={data} />;
     case 'biz-fin': return <BizFin data={data} />;

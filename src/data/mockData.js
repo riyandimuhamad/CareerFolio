@@ -1,5 +1,5 @@
 export const templatesData = {
-  'health-basic': {
+  'health-1': {
     name: 'CareerFolio Health - Premium',
     category: 'Kesehatan & Medis',
     price: 349000,
@@ -20,7 +20,41 @@ export const templatesData = {
       certifications: ['ACLS (Advanced Cardiovascular Life Support)', 'BLS (Basic Life Support)', 'ATLS (Advanced Trauma Life Support)', 'Sertifikasi USG Dasar']
     }
   },
-  'agro-field': {
+  'health-2': {
+    name: 'CareerFolio Health - Pro',
+    category: 'Kesehatan & Medis',
+    price: 499000,
+    mockContent: {
+      profile: {
+        name: 'Dr. James Aris, MD',
+        title: 'Senior Medical Resident',
+        bio: 'In the evolving landscape of medicine, I believe that the bridge between technical excellence and human connection is where the most profound healing occurs. My journey is defined by a rigorous pursuit of clinical mastery and a dedication to understanding the narrative behind every patient encounter.',
+        image: 'https://lh3.googleusercontent.com/aida/AP1WRLviBGusm8c2NuUIcwOriuSj8r-YUkVaOJv-fHuoQ5ALeautdE8xB_PLlDFaJhQ9n0Om8pL1DxKEKNvqLmamZ-u48AX-kG3KQSIZRQ3GIAauXTihsi5dT1Nv9Ou1klcV42fnwLYgMHAVr1NnSZC08fSd5elfjBI2sGc-bfQ1Bd_mSk3Z58TdBq0W5Adr5_54wAX44btsAiRieJIy7CGRoFSWyf7em45AdJ-j81iypac2aDLv4SO9MgEjLQAn'
+      },
+      rotations: [
+        { id: 1, department: 'Internal Medicine', hospital: 'City General Hospital', duration: '12 Weeks', desc: 'Developed proficiency in complex diagnosis and chronic disease management for diverse patient populations.' },
+        { id: 2, department: 'Pediatrics', hospital: 'Children\'s Healthcare Center', duration: '8 Weeks', desc: 'Gained expertise in developmental assessments and building trust with young patients and their families.' }
+      ]
+    }
+  },
+  'health-3': {
+    name: 'CareerFolio Health - Executive',
+    category: 'Kesehatan & Medis',
+    price: 599000,
+    mockContent: {
+      profile: {
+        name: 'Dr. Aris Setiawan',
+        title: 'Future Physician & Clinical Researcher',
+        bio: 'Dedicated to merging surgical precision with innovative research. Shaping healthcare through analytical rigor and patient-centric empathy.',
+        image: 'https://lh3.googleusercontent.com/aida/AP1WRLviBGusm8c2NuUIcwOriuSj8r-YUkVaOJv-fHuoQ5ALeautdE8xB_PLlDFaJhQ9n0Om8pL1DxKEKNvqLmamZ-u48AX-kG3KQSIZRQ3GIAauXTihsi5dT1Nv9Ou1klcV42fnwLYgMHAVr1NnSZC08fSd5elfjBI2sGc-bfQ1Bd_mSk3Z58TdBq0W5Adr5_54wAX44btsAiRieJIy7CGRoFSWyf7em45AdJ-j81iypac2aDLv4SO9MgEjLQAn'
+      },
+      rotations: [
+        { id: 1, department: 'Surgical Foundations', hospital: 'General Hospital', duration: '12 Weeks', desc: 'Expertise in pre-operative diagnostics and minimally invasive techniques.' }
+      ],
+      certifications: ['ACLS Certified', 'GCP Proficiency', 'IELTS 8.5']
+    }
+  },
+  'agro-1': {
     name: 'CareerFolio Agro - Field Expert',
     category: 'Pertanian & Lingkungan',
     price: 499000,
@@ -35,6 +69,42 @@ export const templatesData = {
         { id: 1, project: 'Optimasi Hasil Panen Padi Menthik Wangi', location: 'Subang, Jawa Barat', result: '+15% Yield', desc: 'Penerapan pupuk organik cair dan sistem jajar legowo.' },
         { id: 2, project: 'Implementasi Irigasi Tetes Berbasis IoT', location: 'Indramayu', result: '-30% Water Usage', desc: 'Mengurangi konsumsi air tanah di musim kemarau.' },
         { id: 3, project: 'Pengendalian Hama Terpadu', location: 'Garut', result: '-40% Pest Damage', desc: 'Penggunaan predator alami alih-alih pestisida kimia.' }
+      ]
+    }
+  },
+  'agro-2': {
+    name: 'CareerFolio Agro - Researcher',
+    category: 'Pertanian & Lingkungan',
+    price: 499000,
+    mockContent: {
+      profile: {
+        name: 'Elena Thorne',
+        title: 'Ph.D Candidate 2024',
+        bio: 'Graduate researcher specialized in precision ecology and soil health restoration. Bridging the gap between technological innovation and ecological preservation.',
+        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDuCn8Vzy8mubfMh1F8TvL0V7lOdDRvaLRUZs_qo1oAytuQ-fv8uGhE7skWxW4Vze-fXbtsJtLIvzmNochyEeD2SobLhbTsQbGJJDOpE2JGhUHdrEFtFp8k-XFAlcNxjJYGevg_JaG1dkze9CZf0He54BXQCuuaoQzm2U_bStgch6IQF2O9U6aXvQtCX6hSN1cuEVGSbfKbqvU1_zjaKYBGejwn1Aiqd_U8ibbZGwPDVZSD0SaJCTWc4PVEubyE9HJzCteoK6g0sw'
+      },
+      fieldworks: [
+        { id: 1, project: 'Crop Yield Optimization', location: 'Central Valley', result: 'Published Paper', desc: 'Evaluating precision nitrogen application using multispectral imaging in Central Valley wheat fields.' },
+        { id: 2, project: 'Smart Water Systems', location: 'California', result: '30% Water Savings', desc: 'Designing automated irrigation feedback loops using real-time soil moisture sensor data.' },
+        { id: 3, project: 'Regenerative Soil Study', location: 'Highlands', result: 'Award Winning', desc: 'Assessing microbial activity and carbon sequestration rates in organic highland farming systems.' }
+      ]
+    }
+  },
+  'agro-3': {
+    name: 'CareerFolio Agro - Tech Data',
+    category: 'Pertanian & Lingkungan',
+    price: 499000,
+    mockContent: {
+      profile: {
+        name: 'Elena Thorne',
+        title: 'Lead IoT Agronomist',
+        bio: 'MSc Graduate Researcher specializing in the intersection of technology and ecology. Currently architecting soil health restoration frameworks and precision agriculture systems.',
+        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDuCn8Vzy8mubfMh1F8TvL0V7lOdDRvaLRUZs_qo1oAytuQ-fv8uGhE7skWxW4Vze-fXbtsJtLIvzmNochyEeD2SobLhbTsQbGJJDOpE2JGhUHdrEFtFp8k-XFAlcNxjJYGevg_JaG1dkze9CZf0He54BXQCuuaoQzm2U_bStgch6IQF2O9U6aXvQtCX6hSN1cuEVGSbfKbqvU1_zjaKYBGejwn1Aiqd_U8ibbZGwPDVZSD0SaJCTWc4PVEubyE9HJzCteoK6g0sw'
+      },
+      fieldworks: [
+        { id: 1, project: 'Crop Yield Optimization', location: 'Lab 1', result: 'PUBLISHED_PAPER', desc: 'Precision nitrogen analysis via high-spectrum imaging in Central Valley wheat corridors.' },
+        { id: 2, project: 'Smart Water Systems', location: 'Lab 2', result: '30%_EFFICIENCY', desc: 'Autonomous feedback loops leveraging real-time telemetry from subsurface moisture grids.' },
+        { id: 3, project: 'Regenerative Soil Study', location: 'Lab 3', result: 'AWARD_POSTER', desc: 'Quantifying microbial dynamics and carbon sequestration across organic highland zones.' }
       ]
     }
   },
