@@ -10,7 +10,9 @@ import HealthThree from '../components/templates/kesehatan/HealthThree';
 import AgroOne from '../components/templates/pertanian/AgroOne';
 import AgroTwo from '../components/templates/pertanian/AgroTwo';
 import AgroThree from '../components/templates/pertanian/AgroThree';
-import TechCivil from '../components/templates/teknik/TechCivil';
+import TechOne from '../components/templates/teknik/TechOne';
+import TechTwo from '../components/templates/teknik/TechTwo';
+import TechThree from '../components/templates/teknik/TechThree';
 import LawPrac from '../components/templates/hukum/LawPrac';
 import BizFin from '../components/templates/ekonomi/BizFin';
 
@@ -23,7 +25,9 @@ const TemplateRenderer = ({ templateId, data }) => {
     case 'agro-1': return <AgroOne data={data} />;
     case 'agro-2': return <AgroTwo data={data} />;
     case 'agro-3': return <AgroThree data={data} />;
-    case 'tech-civil': return <TechCivil data={data} />;
+    case 'tech-1': return <TechOne data={data} />;
+    case 'tech-2': return <TechTwo data={data} />;
+    case 'tech-3': return <TechThree data={data} />;
     case 'law-prac': return <LawPrac data={data} />;
     case 'biz-fin': return <BizFin data={data} />;
     default: return <div className="p-8 text-center">Template sedang dalam pengembangan.</div>;

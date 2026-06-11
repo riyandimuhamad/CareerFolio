@@ -108,10 +108,23 @@ export const templatesData = {
       ]
     }
   },
-  'tech-civil': {
+  'tech-1': {
     name: 'CareerFolio Tech - Constructor',
     category: 'Teknik Non-IT',
     price: 499000,
+    mockContent: {
+      profile: {
+        name: 'Alex Chen',
+        title: 'Mechanical Engineering Student // Robotics Specialist',
+        bio: 'Fokus pada blueprint, mekanika struktur, dan automasi industri.',
+        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDYWnvkmeBJWoV-aA5cSPQC-OqqOluOdcvVHJqfy_RIEw6rrEt8MY2cl4g9uC0pVx5kBZOxfVzIQx2OE-g36qIQ7_GsEAnz4f8uQ45aCLQN5c9LwryXxIzhfieCthv8PXOXfmCqtswoSJdUdGEq9gXetVea72j6vLtBg1kZsb5VoV5MMDUSVqZYRoca73E0yOx6zCTC8NrRAiNnoXSWlEmOy8pWcTtOfHIoQDMi2lSpZUCbQn5mBhdDv34AXhMw2Or9OZcM8kSe8tU'
+      },
+      fieldworks: [
+        { id: 1, project: 'Autonomous Rover Chassis', location: 'Lab 1', result: 'PROTOTYPE', desc: 'Structural optimization of a 6-wheeled planetary exploration rover using generative design and carbon-fiber composites.' },
+        { id: 2, project: 'Kinetic Energy Recovery System', location: 'Lab 2', result: '94.2% EFF', desc: 'Redesign of a flywheel-based energy storage module for industrial micro-grids, focusing on low-friction bearing assemblies.' }
+      ]
+    }
+  },
     mockContent: {
       profile: {
         name: 'Citra Kirana, S.T.',
@@ -124,6 +137,24 @@ export const templatesData = {
         { id: 2, name: 'Gedung Perkantoran Sudirman 15', specs: 'Struktur Baja H-Beam, 15 Lantai', role: 'Project Engineer' }
       ],
       skills: ['AutoCAD', 'SAP2000', 'ETABS', 'RAB Calculation', 'BIM Modelling']
+    }
+  },
+  'tech-3': {
+    name: 'CareerFolio Tech - Architectural',
+    category: 'Teknik Non-IT',
+    price: 499000,
+    mockContent: {
+      profile: {
+        name: 'Elias Vaughn',
+        title: 'Structural Integrity Lead',
+        bio: 'Senior engineer specializing in high-stress architectural analysis and synthetic laboratory development.',
+        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAFvug1sJeRCDieX2Dxmdq4QQfQFZVRLQscTI0paP1nRDTZ-ox9vRDOnlbim87lNW-KdHPP_lEZ0aCVaTEsMAVhIS1w5bxJbrNmZlFaGLuDxnHQ3Mc4JAwQ2uhxKGhKBrIHaFt5m6xWHwVhaJcCB65-8hnNMjOUFpUXs0OxyHA-X0elDdOHrqnNFk08fonnnLH1f8DIKlqQzP2J5zmORgLF_1WMbmjT-BYEJXD7HgLX9vaOfsW_HPqhCANsgSX5qkOypwmP7MM5TzQ'
+      },
+      fieldworks: [
+        { id: 1, project: 'Neo-Industrial Tower', location: 'Site A', result: 'COMPLETED', desc: 'Structural analysis confirmed stability under extreme load. Blueprint revision 4.0 implemented.' },
+        { id: 2, project: 'Void-Span Bridge', location: 'Site B', result: 'IN PROGRESS', desc: 'Revolutionary cable tensioning system used for maximum aerodynamic stability.' },
+        { id: 3, project: 'Synthetic Lab 7', location: 'Site C', result: 'PLANNING', desc: 'Highly controlled environmental systems designed for semiconductor fabrication.' }
+      ]
     }
   },
   'law-prac': {
