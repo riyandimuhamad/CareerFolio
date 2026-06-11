@@ -1,88 +1,98 @@
 export const templatesData = {
   'health-basic': {
-    name: 'CareerFolio Health - Basic',
+    name: 'CareerFolio Health - Premium',
     category: 'Kesehatan & Medis',
-    price: 299000,
+    price: 349000,
     mockContent: {
       profile: {
         name: 'dr. Andi Pratama',
-        title: 'Dokter Umum',
+        title: 'Dokter Umum & Edukator Kesehatan',
         str: '1234567890123456',
-        bio: 'Dokter umum dengan pengalaman 2 tahun di klinik primer, berdedikasi tinggi terhadap pelayanan kesehatan masyarakat.'
+        bio: 'Dokter umum berdedikasi dengan pengalaman lebih dari 2 tahun di klinik primer IGD rumah sakit rujukan. Fokus pada pelayanan kesehatan promotif dan preventif, serta aktif mengedukasi masyarakat melalui media sosial mengenai gaya hidup sehat dan pencegahan penyakit metabolik.',
+        image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=2070&auto=format&fit=crop',
       },
       rotations: [
-        { id: 1, department: 'Ilmu Penyakit Dalam', hospital: 'RSUD Kota', duration: '10 Minggu' },
-        { id: 2, department: 'Ilmu Kesehatan Anak', hospital: 'RSIA', duration: '10 Minggu' }
+        { id: 1, department: 'Ilmu Penyakit Dalam', hospital: 'RSUD Kota Bandung', duration: '10 Minggu', desc: 'Menangani 50+ kasus rawat inap, asistensi prosedur endoskopi.' },
+        { id: 2, department: 'Ilmu Kesehatan Anak', hospital: 'RSIA Hermina', duration: '10 Minggu', desc: 'Pemantauan tumbuh kembang anak, penanganan kejang demam.' },
+        { id: 3, department: 'Ilmu Bedah', hospital: 'RS Hasan Sadikin', duration: '12 Minggu', desc: 'Asistensi operasi minor dan mayor, perawatan luka pasca operasi.' },
+        { id: 4, department: 'Obstetri & Ginekologi', hospital: 'RSIA Bunda', duration: '10 Minggu', desc: 'Menolong persalinan normal (APN), observasi preeklampsia.' }
       ],
-      certifications: ['ACLS', 'BLS', 'ATLS']
+      certifications: ['ACLS (Advanced Cardiovascular Life Support)', 'BLS (Basic Life Support)', 'ATLS (Advanced Trauma Life Support)', 'Sertifikasi USG Dasar']
     }
   },
   'agro-field': {
-    name: 'CareerFolio Agro - Field',
+    name: 'CareerFolio Agro - Field Expert',
     category: 'Pertanian & Lingkungan',
     price: 499000,
     mockContent: {
       profile: {
         name: 'Budi Santoso, S.P.',
-        title: 'Agronomist',
-        bio: 'Ahli agronomi dengan fokus pada sustainable farming dan smart agriculture.'
+        title: 'Agronomist & Sustainability Expert',
+        bio: 'Ahli agronomi yang memiliki spesialisasi dalam sustainable farming dan smart agriculture. Berpengalaman dalam mengelola lahan lebih dari 500 hektar menggunakan teknologi IoT untuk efisiensi irigasi dan pupuk.',
+        image: 'https://images.unsplash.com/photo-1595841696677-6489ff3f8cd1?q=80&w=2000&auto=format&fit=crop',
       },
       fieldworks: [
-        { id: 1, project: 'Optimasi Hasil Panen Padi', location: 'Subang', result: '+15% Yield' },
-        { id: 2, project: 'Implementasi Irigasi Tetes', location: 'Indramayu', result: '-30% Water Usage' }
+        { id: 1, project: 'Optimasi Hasil Panen Padi Menthik Wangi', location: 'Subang, Jawa Barat', result: '+15% Yield', desc: 'Penerapan pupuk organik cair dan sistem jajar legowo.' },
+        { id: 2, project: 'Implementasi Irigasi Tetes Berbasis IoT', location: 'Indramayu', result: '-30% Water Usage', desc: 'Mengurangi konsumsi air tanah di musim kemarau.' },
+        { id: 3, project: 'Pengendalian Hama Terpadu', location: 'Garut', result: '-40% Pest Damage', desc: 'Penggunaan predator alami alih-alih pestisida kimia.' }
       ]
     }
   },
   'tech-civil': {
-    name: 'CareerFolio Tech - Civil',
+    name: 'CareerFolio Tech - Constructor',
     category: 'Teknik Non-IT',
     price: 499000,
     mockContent: {
       profile: {
         name: 'Citra Kirana, S.T.',
-        title: 'Civil Engineer',
-        bio: 'Insinyur sipil spesialisasi struktur beton dan perancangan jalan raya.'
+        title: 'Lead Civil Engineer',
+        bio: 'Insinyur sipil dengan spesialisasi pada struktur beton prategang dan perancangan infrastruktur jalan raya. Telah terlibat dalam 3 Proyek Strategis Nasional (PSN) di bawah Kementerian PUPR.',
+        image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=2000&auto=format&fit=crop',
       },
       projects: [
-        { id: 1, name: 'Jembatan Penyeberangan', specs: 'Panjang 50m, Beton Prategang', role: 'Structural Designer' },
-        { id: 2, name: 'Gedung Perkantoran 5 Lantai', specs: 'Struktur Baja H-Beam', role: 'Project Engineer' }
+        { id: 1, name: 'Jembatan Penyeberangan Sei Rampah', specs: 'Panjang 50m, Beton Prategang', role: 'Structural Designer' },
+        { id: 2, name: 'Gedung Perkantoran Sudirman 15', specs: 'Struktur Baja H-Beam, 15 Lantai', role: 'Project Engineer' }
       ],
-      skills: ['AutoCAD', 'SAP2000', 'ETABS', 'RAB Calculation']
+      skills: ['AutoCAD', 'SAP2000', 'ETABS', 'RAB Calculation', 'BIM Modelling']
     }
   },
   'law-prac': {
-    name: 'CareerFolio Law - Practitioner',
+    name: 'CareerFolio Law - Associate',
     category: 'Hukum & Soshum',
     price: 499000,
     mockContent: {
       profile: {
         name: 'Dewi Lestari, S.H., M.H.',
-        title: 'Legal Counsel',
-        bio: 'Konsultan hukum korporat dengan keahlian dalam merger & akuisisi serta penyelesaian sengketa bisnis.'
+        title: 'Corporate Legal Counsel',
+        bio: 'Konsultan hukum korporat dinamis dengan keahlian khusus dalam merger & akuisisi, kepatuhan regulasi (compliance), serta penyelesaian sengketa bisnis (alternative dispute resolution). Lulusan cumlaude dengan pengalaman di firma hukum tier-1.',
+        image: 'https://images.unsplash.com/photo-1589829085413-56de8ae18c73?q=80&w=2000&auto=format&fit=crop',
       },
       cases: [
-        { id: 1, title: 'Akuisisi PT Maju Bersama', role: 'Lead Legal Advisor', outcome: 'Successful Acquisition' },
-        { id: 2, title: 'Moot Court Competition 2023', role: 'Ketua Tim', outcome: 'Juara 1 Nasional' }
+        { id: 1, title: 'Akuisisi PT Maju Bersama oleh Nusantara Group', role: 'Lead Legal Advisor', outcome: 'Transaksi Rp 500M Sukses' },
+        { id: 2, title: 'Moot Court Competition ALSA 2023', role: 'Ketua Tim Delegasi', outcome: 'Juara 1 Nasional & Best Memorial' },
+        { id: 3, title: 'Legal Due Diligence Startup TechX', role: 'Associate', outcome: 'Clearance untuk Pendanaan Seri A' }
       ],
-      publications: ['Analisis Yuridis Merger Bank', 'Perlindungan Konsumen di Era Digital']
+      publications: ['Analisis Yuridis Merger Bank Digital di Indonesia (2025)', 'Tantangan Perlindungan Konsumen di Era E-Commerce (2024)']
     }
   },
   'biz-fin': {
-    name: 'CareerFolio Business - Finance',
+    name: 'CareerFolio Business - Analyst',
     category: 'Ekonomi & Bisnis',
     price: 499000,
     mockContent: {
       profile: {
         name: 'Eko Putra, S.E., BKP',
-        title: 'Financial Analyst',
-        bio: 'Analis keuangan dengan sertifikasi brevet pajak dan pengalaman menyusun proyeksi keuangan startup.'
+        title: 'Senior Financial Analyst',
+        bio: 'Analis keuangan tersertifikasi dengan keahlian dalam financial modeling, valuasi startup, dan perencanaan pajak korporat. Membantu lebih dari 10 startup dalam menyusun proyeksi keuangan untuk fundraise.',
+        image: 'https://images.unsplash.com/photo-1556761175-5973dc0f32d7?q=80&w=2000&auto=format&fit=crop',
       },
       metrics: [
-        { label: 'Portfolio Managed', value: 'Rp 5M+' },
-        { label: 'Tax Savings', value: '12%' },
-        { label: 'Financial Models Built', value: '25+' }
+        { label: 'Portfolio Managed', value: 'Rp 15M+' },
+        { label: 'Tax Savings Generated', value: '18%' },
+        { label: 'Financial Models Built', value: '30+' },
+        { label: 'Fundraising Success', value: '$2M+' }
       ],
-      certifications: ['Brevet A & B', 'CFA Level 1']
+      certifications: ['Brevet Pajak A & B Terapan', 'CFA Level 1 Passed', 'Financial Modeling Institute (FMI)']
     }
   }
 };
