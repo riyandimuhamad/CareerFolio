@@ -125,18 +125,22 @@ export const templatesData = {
       ]
     }
   },
+  'tech-2': {
+    name: 'CareerFolio Tech - Industrial',
+    category: 'Teknik Non-IT',
+    price: 499000,
     mockContent: {
       profile: {
-        name: 'Citra Kirana, S.T.',
-        title: 'Lead Civil Engineer',
-        bio: 'Insinyur sipil dengan spesialisasi pada struktur beton prategang dan perancangan infrastruktur jalan raya. Telah terlibat dalam 3 Proyek Strategis Nasional (PSN) di bawah Kementerian PUPR.',
-        image: 'https://images.unsplash.com/photo-1581092921461-eab62e97a780?q=80&w=2000&auto=format&fit=crop',
+        name: 'Jordan Hayes',
+        title: 'Lead Industrial Analyst',
+        bio: 'Spesialis dalam optimasi infrastruktur dan analisis logistik vertikal untuk megastruktur.',
+        image: 'https://lh3.googleusercontent.com/aida-public/AB6AXuAZsVwYM75lLVyXPTOOn7U4flcbqvPkpzjRx3unLwm4GtLlsHXpBJp4kIhitL8LQpbs_TW0WMhQeXp1158kSCRTIIhQqmVb0IPSB0UGkRtxj9id21pEhv4YjWKR2jH9nCBoVDoEDp711KzrXr1DNIN3il6U13AcAygZIuAMEcglGct0mUdW9e1t9vmO70_YUOzJQFBO4VwwVDZPR3z4t9aGCjVgwvHTXeXNF8V52IqwMOKlzF6cSztTFmFiHUOVflfyFDZPpjOVkFY'
       },
-      projects: [
-        { id: 1, name: 'Jembatan Penyeberangan Sei Rampah', specs: 'Panjang 50m, Beton Prategang', role: 'Structural Designer' },
-        { id: 2, name: 'Gedung Perkantoran Sudirman 15', specs: 'Struktur Baja H-Beam, 15 Lantai', role: 'Project Engineer' }
-      ],
-      skills: ['AutoCAD', 'SAP2000', 'ETABS', 'RAB Calculation', 'BIM Modelling']
+      fieldworks: [
+        { id: 1, project: 'Omni-Node Infrastructure', location: 'Sector A', result: 'COMPLETED', desc: 'High-density structural deployment for orbital relay stations featuring adaptive stress-response frames.' },
+        { id: 2, project: 'Vertical Logistics Core', location: 'Sector B', result: 'IN_PROGRESS', desc: 'Autonomous cargo lift systems designed for megastructure maintenance and logistics integration.' },
+        { id: 3, project: 'Kinetic Load Dampeners', location: 'Sector C', result: 'ALPHA_TEST', desc: 'Seismic stabilization modules utilizing advanced fluid dynamics for extreme environmental tolerance.' }
+      ]
     }
   },
   'tech-3': {
